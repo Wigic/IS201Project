@@ -1,0 +1,56 @@
+
+h1 {
+    color: #000000;
+    font-family: '', sans-serif;
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-color:black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imgdesc {
+    font-size: 20px;
+    color:rgb(10, 12, 12);
+    font-weight: bold;
+}
+
+ul{
+    list-style-position: inside;
+    font-weight: 100;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 20px;
+    
+}
+ul li::before {
+    content: "- "; 
+}
+
+div{
+    text-align: center;
+}
+ol{
+    padding-right: 50px;
+    list-style-position: inside;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.footer{
+    background-color:azure;
+    height: 25px;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
